@@ -24,13 +24,6 @@ int main(){
         for (int j = 1; j <= coluna; j++){
             // if (matriz[i][j]>maior_de_todos) {
             // maior_de_todos=matriz[i][j];
-
-            if (j==coluna){
-                if(matriz[i][j])
-            }
-
-
-
             if ((matriz[i][j]>matriz[i][j+1]) && (matriz[i][j]>matriz[i+1][j]) && 
             (matriz[i][j]>matriz[i-1][j]) && (matriz[i][j]>matriz[i][j-1]) && 
             (matriz[i][j]>matriz[i-1][j-1]) && (matriz[i][j]>matriz[i+1][j+1]) && 
